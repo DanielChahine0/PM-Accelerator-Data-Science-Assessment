@@ -38,28 +38,28 @@ Analyze the **Global Weather Repository** dataset to forecast future temperature
 
 ```
 .
-├── main.py                  # End-to-end pipeline (clean → EDA → forecast → advanced)
+├── main.py
 ├── requirements.txt
 ├── README.md
 ├── data/
-│   ├── raw/                 # Original CSV
-│   └── processed/           # Cleaned parquet
+│   ├── raw/
+│   └── processed/
 ├── src/
-│   ├── cleaning.py          # Data cleaning & preprocessing
-│   ├── features.py          # Feature engineering (lags, rolling, calendar)
-│   ├── anomalies.py         # STL & Isolation Forest anomaly detection
-│   ├── evaluation.py        # MAE, RMSE, sMAPE metrics
+│   ├── cleaning.py
+│   ├── features.py
+│   ├── anomalies.py
+│   ├── evaluation.py
 │   └── models/
-│       ├── baseline.py      # Naive & Seasonal Naive
-│       ├── arima.py         # SARIMA
-│       ├── prophet_model.py # Facebook Prophet
-│       ├── ml_regression.py # Gradient Boosting Regression
-│       └── ensemble.py      # Weighted ensemble (1/MAE)
+│       ├── baseline.py
+│       ├── arima.py
+│       ├── prophet_model.py
+│       ├── ml_regression.py
+│       └── ensemble.py
 ├── notebooks/
-│   └── eda.ipynb            # Interactive EDA notebook
+│   └── eda.ipynb
 └── reports/
-    ├── figures/             # All generated plots
-    └── forecast_results.csv # Per-city, per-horizon metric table
+    ├── figures/
+    └── forecast_results.csv
 ```
 
 ---
