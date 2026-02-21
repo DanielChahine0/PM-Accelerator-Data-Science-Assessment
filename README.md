@@ -124,14 +124,14 @@ Plots saved to `reports/figures/`:
 
 | Model | 7-day MAE (°C) | 14-day MAE (°C) |
 |-------|:--------------:|:---------------:|
-| Naive | — | — |
-| Seasonal Naive | — | — |
-| SARIMA | — | — |
-| Prophet | — | — |
-| ML (GBR) | — | — |
-| **Ensemble** | **—** | **—** |
+| Naive | 3.26 | 3.75 |
+| Seasonal Naive | 3.45 | 3.10 |
+| SARIMA | 2.88 | 2.80 |
+| Prophet | 2.17 | 2.82 |
+| ML (GBR) | 1.60 | 1.61 |
+| **Ensemble** | **1.81** | **2.02** |
 
-*(Dash values are replaced with actual numbers after running `main.py`.)*
+*Averages across 5 cities (London, Paris, Tokyo, Cairo, Moscow). Full per-city results in `reports/forecast_results.csv`.*
 
 ---
 
