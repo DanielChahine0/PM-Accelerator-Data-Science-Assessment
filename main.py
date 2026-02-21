@@ -55,10 +55,10 @@ FIG_DIR.mkdir(parents=True, exist_ok=True)
 # Major cities used for per-city time-series forecasting
 MAJOR_CITIES = [
     "London",
-    "New York",
+    "Paris",
     "Tokyo",
-    "Sydney",
     "Cairo",
+    "Moscow",
 ]
 
 sns.set_theme(style="whitegrid", palette="muted", font_scale=1.1)
