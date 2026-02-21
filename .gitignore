@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data (large files)
+data/raw/
+data/proecessed/
+
+# Kaggle
+~/.cache/kagglehub/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
